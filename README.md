@@ -34,28 +34,28 @@
 *text_align_dir*	对齐好的原文本存储的目录  
 
 ### 2. 语音识别模块介绍（wav_reco目录）  
-run.sh	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
-butter-oil-tool	vad切分工具的目录  
-Batch_VAD.sh	批处理对一个目录中的语音文件进行vad切分，并将切分好的语音文件输出到指定目录  
-speech_recognition	语音识别的接口程序  
-Batch_Reco.sh	批处理对一个目录中切分好的语音进行识别，并将识别文本和映射表输出到指定目录  
-wav_trans.sh	将pcm格式文件转为wav格式文件  
-Batch_Tran.sh	将目录中的语音转为16khz，16bit，单声道的语音  
+*run.sh*	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
+*butter-oil-tool*	vad切分工具的目录  
+*Batch_VAD.sh*	批处理对一个目录中的语音文件进行vad切分，并将切分好的语音文件输出到指定目录  
+*speech_recognition*	语音识别的接口程序  
+*Batch_Reco.sh*	批处理对一个目录中切分好的语音进行识别，并将识别文本和映射表输出到指定目录  
+*wav_trans.sh*	将pcm格式文件转为wav格式文件  
+*Batch_Tran.sh*	将目录中的语音转为16khz，16bit，单声道的语音  
 
 
 ### 3. 文本切分模块介绍（text_split目录）  
-run.sh	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
-text_split.py	文本切分程序  
-Text_Split.sh	文本切分执行脚本  
+*run.sh*	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
+*text_split.py*	文本切分程序  
+*Text_Split.sh*	文本切分执行脚本  
 
 
 #### 4. 文本对齐模块介绍（text_align目录）
-run.sh	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
-text_align_phone_char.py	以字为基本单元的对齐程序  
-text_align_phone_segment.py	以标点切分文本段为基本单元的对齐程序  
-text_align_phone_sentence.py	以换行符切分文本段为基本单元的对齐程序  
-merge_align.py	将两个对齐文本去重后合并为一个  
-Text_Algin.sh	文本对齐执行脚本  
+*run.sh*	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
+*text_align_phone_char.py*	以字为基本单元的对齐程序  
+*text_align_phone_segment.py*	以标点切分文本段为基本单元的对齐程序  
+*text_align_phone_sentence.py*	以换行符切分文本段为基本单元的对齐程序  
+*merge_align.py*	将两个对齐文本去重后合并为一个  
+*Text_Algin.sh*	文本对齐执行脚本  
 
 
 ## ***data目录介绍***
