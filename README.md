@@ -49,7 +49,7 @@
 *Text_Split.sh*	文本切分执行脚本  
 
 
-#### 4. 文本对齐模块介绍（text_align目录）
+### 4. 文本对齐模块介绍（text_align目录）
 *run.sh*	总体执行脚本，其中包含需要导入的配置文件，默认为align.conf  
 *text_align_phone_char.py*	以字为基本单元的对齐程序  
 *text_align_phone_segment.py*	以标点切分文本段为基本单元的对齐程序  
